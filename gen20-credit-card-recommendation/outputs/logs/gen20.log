@@ -1,0 +1,140 @@
+2026-01-27 15:28:15,651 | INFO | gen20 | 프로젝트 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation
+2026-01-27 15:28:15,651 | INFO | gen20 | 워크스페이스 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong
+2026-01-27 15:28:15,655 | INFO | gen20 | cards_info.csv shape=30 x 7
+2026-01-27 15:28:15,660 | INFO | gen20 | cards_benefits_fixed.csv shape=253 x 10
+2026-01-27 15:28:15,663 | INFO | gen20 | youtube_20_consumption.csv.csv shape=104 x 7
+2026-01-27 15:28:15,666 | INFO | gen20 | youtube_comments_700.csv shape=700 x 6
+2026-01-27 15:28:15,668 | INFO | gen20 | youtube_dining_search_100.csv shape=100 x 8
+2026-01-27 15:28:15,669 | INFO | gen20 | naverlab_dining_trend_comparison.csv shape=12 x 6
+2026-01-27 15:28:15,698 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/cards_merged.csv
+2026-01-27 15:28:15,703 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/spending_pattern_20s.csv
+2026-01-27 15:28:15,708 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:28:15,718 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_tfidf_keywords.csv
+2026-01-27 15:28:15,723 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_monthly_trend.csv
+2026-01-27 15:28:15,731 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:28:15,732 | INFO | gen20 | sentiment_score mean=0.0162, std=0.1185
+2026-01-27 15:28:15,733 | INFO | gen20 | 피어슨 상관계수: r=0.8787, p-value=0.0002
+2026-01-27 15:28:15,735 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/trend_correlations.csv
+2026-01-27 15:28:15,746 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/dining_benefit_scores.csv
+2026-01-27 15:28:15,751 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/weighted_match_scores.csv
+2026-01-27 15:29:04,045 | INFO | gen20 | 프로젝트 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation
+2026-01-27 15:29:04,046 | INFO | gen20 | 워크스페이스 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong
+2026-01-27 15:29:04,048 | INFO | gen20 | cards_info.csv shape=30 x 7
+2026-01-27 15:29:04,054 | INFO | gen20 | cards_benefits_fixed.csv shape=253 x 10
+2026-01-27 15:29:04,056 | INFO | gen20 | youtube_20_consumption.csv.csv shape=104 x 7
+2026-01-27 15:29:04,060 | INFO | gen20 | youtube_comments_700.csv shape=700 x 6
+2026-01-27 15:29:04,062 | INFO | gen20 | youtube_dining_search_100.csv shape=100 x 8
+2026-01-27 15:29:04,064 | INFO | gen20 | naverlab_dining_trend_comparison.csv shape=12 x 6
+2026-01-27 15:29:04,094 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/cards_merged.csv
+2026-01-27 15:29:04,096 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/spending_pattern_20s.csv
+2026-01-27 15:29:04,102 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:29:04,111 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_tfidf_keywords.csv
+2026-01-27 15:29:04,116 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_monthly_trend.csv
+2026-01-27 15:29:04,123 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:29:04,124 | INFO | gen20 | sentiment_score mean=0.0162, std=0.1185
+2026-01-27 15:29:04,126 | INFO | gen20 | 피어슨 상관계수: r=0.8787, p-value=0.0002
+2026-01-27 15:29:04,128 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/trend_correlations.csv
+2026-01-27 15:29:04,140 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/dining_benefit_scores.csv
+2026-01-27 15:29:04,146 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/weighted_match_scores.csv
+2026-01-27 15:29:04,153 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/top_cards.csv
+2026-01-27 15:29:04,160 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/scenario_recommendations.csv
+2026-01-27 15:29:41,170 | INFO | gen20 | 프로젝트 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation
+2026-01-27 15:29:41,170 | INFO | gen20 | 워크스페이스 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong
+2026-01-27 15:29:41,172 | INFO | gen20 | cards_info.csv shape=30 x 7
+2026-01-27 15:29:41,177 | INFO | gen20 | cards_benefits_fixed.csv shape=253 x 10
+2026-01-27 15:29:41,178 | INFO | gen20 | youtube_20_consumption.csv.csv shape=104 x 7
+2026-01-27 15:29:41,181 | INFO | gen20 | youtube_comments_700.csv shape=700 x 6
+2026-01-27 15:29:41,182 | INFO | gen20 | youtube_dining_search_100.csv shape=100 x 8
+2026-01-27 15:29:41,183 | INFO | gen20 | naverlab_dining_trend_comparison.csv shape=12 x 6
+2026-01-27 15:29:41,206 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/cards_merged.csv
+2026-01-27 15:29:41,208 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/spending_pattern_20s.csv
+2026-01-27 15:29:41,214 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:29:41,221 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_tfidf_keywords.csv
+2026-01-27 15:29:41,225 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_monthly_trend.csv
+2026-01-27 15:29:41,231 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:29:41,232 | INFO | gen20 | sentiment_score mean=0.0162, std=0.1185
+2026-01-27 15:29:41,234 | INFO | gen20 | 피어슨 상관계수: r=0.8787, p-value=0.0002
+2026-01-27 15:29:41,235 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/trend_correlations.csv
+2026-01-27 15:29:41,244 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/dining_benefit_scores.csv
+2026-01-27 15:29:41,249 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/weighted_match_scores.csv
+2026-01-27 15:29:41,254 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/top_cards.csv
+2026-01-27 15:29:41,260 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/scenario_recommendations.csv
+2026-01-27 15:29:41,264 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/plcc_proposal.md
+2026-01-27 15:29:41,266 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/final_report.md
+2026-01-27 15:29:41,270 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/dashboard.html
+2026-01-27 15:29:41,270 | INFO | gen20 | 파이프라인 완료. outputs/reports 확인하세요.
+2026-01-27 15:30:35,477 | INFO | gen20 | 프로젝트 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation
+2026-01-27 15:30:35,477 | INFO | gen20 | 워크스페이스 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong
+2026-01-27 15:30:35,479 | INFO | gen20 | cards_info.csv shape=30 x 7
+2026-01-27 15:30:35,483 | INFO | gen20 | cards_benefits_fixed.csv shape=253 x 10
+2026-01-27 15:30:35,484 | INFO | gen20 | youtube_20_consumption.csv.csv shape=104 x 7
+2026-01-27 15:30:35,487 | INFO | gen20 | youtube_comments_700.csv shape=700 x 6
+2026-01-27 15:30:35,488 | INFO | gen20 | youtube_dining_search_100.csv shape=100 x 8
+2026-01-27 15:30:35,489 | INFO | gen20 | naverlab_dining_trend_comparison.csv shape=12 x 6
+2026-01-27 15:30:35,512 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/cards_merged.csv
+2026-01-27 15:30:35,514 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/spending_pattern_20s.csv
+2026-01-27 15:30:35,518 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:30:35,525 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_tfidf_keywords.csv
+2026-01-27 15:30:35,530 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_monthly_trend.csv
+2026-01-27 15:30:35,535 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:30:35,536 | INFO | gen20 | sentiment_score mean=0.0162, std=0.1185
+2026-01-27 15:30:35,537 | INFO | gen20 | 피어슨 상관계수: r=0.8787, p-value=0.0002
+2026-01-27 15:30:35,538 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/trend_correlations.csv
+2026-01-27 15:30:35,548 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/dining_benefit_scores.csv
+2026-01-27 15:30:35,552 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/weighted_match_scores.csv
+2026-01-27 15:30:35,557 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/top_cards.csv
+2026-01-27 15:30:35,564 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/scenario_recommendations.csv
+2026-01-27 15:30:35,567 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/plcc_proposal.md
+2026-01-27 15:30:35,569 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/final_report.md
+2026-01-27 15:30:35,572 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/dashboard.html
+2026-01-27 15:30:35,572 | INFO | gen20 | 파이프라인 완료. outputs/reports 확인하세요.
+2026-01-27 15:31:21,033 | INFO | gen20 | 프로젝트 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation
+2026-01-27 15:31:21,034 | INFO | gen20 | 워크스페이스 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong
+2026-01-27 15:31:21,035 | INFO | gen20 | cards_info.csv shape=30 x 7
+2026-01-27 15:31:21,039 | INFO | gen20 | cards_benefits_fixed.csv shape=253 x 10
+2026-01-27 15:31:21,041 | INFO | gen20 | youtube_20_consumption.csv.csv shape=104 x 7
+2026-01-27 15:31:21,045 | INFO | gen20 | youtube_comments_700.csv shape=700 x 6
+2026-01-27 15:31:21,046 | INFO | gen20 | youtube_dining_search_100.csv shape=100 x 8
+2026-01-27 15:31:21,047 | INFO | gen20 | naverlab_dining_trend_comparison.csv shape=12 x 6
+2026-01-27 15:31:21,072 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/cards_merged.csv
+2026-01-27 15:31:21,074 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/spending_pattern_20s.csv
+2026-01-27 15:31:21,079 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:31:21,086 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_tfidf_keywords.csv
+2026-01-27 15:31:21,089 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_monthly_trend.csv
+2026-01-27 15:31:21,095 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:31:21,096 | INFO | gen20 | sentiment_score mean=0.0162, std=0.1185
+2026-01-27 15:31:21,097 | INFO | gen20 | 피어슨 상관계수: r=0.8787, p-value=0.0002
+2026-01-27 15:31:21,098 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/trend_correlations.csv
+2026-01-27 15:31:21,107 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/dining_benefit_scores.csv
+2026-01-27 15:31:21,112 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/weighted_match_scores.csv
+2026-01-27 15:31:21,118 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/top_cards.csv
+2026-01-27 15:31:21,123 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/scenario_recommendations.csv
+2026-01-27 15:31:21,126 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/plcc_proposal.md
+2026-01-27 15:31:21,128 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/final_report.md
+2026-01-27 15:31:21,131 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/dashboard.html
+2026-01-27 15:31:21,132 | INFO | gen20 | 파이프라인 완료. outputs/reports 확인하세요.
+2026-01-27 15:36:03,983 | INFO | gen20 | 프로젝트 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation
+2026-01-27 15:36:03,983 | INFO | gen20 | 워크스페이스 루트: /Users/t2024-m0246/Documents/GitHub/project_sojeong
+2026-01-27 15:36:03,988 | INFO | gen20 | cards_info.csv shape=30 x 7
+2026-01-27 15:36:03,993 | INFO | gen20 | cards_benefits_fixed.csv shape=253 x 10
+2026-01-27 15:36:03,996 | INFO | gen20 | youtube_20_consumption.csv.csv shape=104 x 7
+2026-01-27 15:36:03,998 | INFO | gen20 | youtube_comments_700.csv shape=700 x 6
+2026-01-27 15:36:04,000 | INFO | gen20 | youtube_dining_search_100.csv shape=100 x 8
+2026-01-27 15:36:04,001 | INFO | gen20 | naverlab_dining_trend_comparison.csv shape=12 x 6
+2026-01-27 15:36:04,027 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/cards_merged.csv
+2026-01-27 15:36:04,031 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/spending_pattern_20s.csv
+2026-01-27 15:36:04,036 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:36:04,047 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_tfidf_keywords.csv
+2026-01-27 15:36:04,053 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/yt_monthly_trend.csv
+2026-01-27 15:36:04,057 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/sentiment_analysis.csv
+2026-01-27 15:36:04,057 | INFO | gen20 | sentiment_score mean=0.0162, std=0.1185
+2026-01-27 15:36:04,058 | INFO | gen20 | 피어슨 상관계수: r=0.8787, p-value=0.0002
+2026-01-27 15:36:04,059 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/trend_correlations.csv
+2026-01-27 15:36:04,069 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/dining_benefit_scores.csv
+2026-01-27 15:36:04,074 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/weighted_match_scores.csv
+2026-01-27 15:36:04,082 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/top_cards.csv
+2026-01-27 15:36:04,086 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/data/processed/scenario_recommendations.csv
+2026-01-27 15:36:04,088 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/plcc_proposal.md
+2026-01-27 15:36:04,089 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/final_report.md
+2026-01-27 15:36:04,091 | INFO | gen20 | 저장 완료: /Users/t2024-m0246/Documents/GitHub/project_sojeong/gen20-credit-card-recommendation/outputs/reports/dashboard.html
+2026-01-27 15:36:04,091 | INFO | gen20 | 파이프라인 완료. outputs/reports 확인하세요.

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gen20 Dashboard</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; margin: 24px; }
+    h1, h2 { margin: 0 0 12px 0; }
+    .card { padding: 16px; border: 1px solid #eee; border-radius: 12px; margin: 16px 0; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #eee; padding: 8px; text-align: left; font-size: 14px; }
+    th { background: #fafafa; }
+  </style>
+</head>
+<body>
+  <h1>20대 신용카드 추천 대시보드(자동 생성)</h1>
+  <div class="card">
+    <h2>TOP3 추천</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>card_id</th>
+      <th>card_name</th>
+      <th>issuer</th>
+      <th>annual_fee_domestic</th>
+      <th>dining_benefit_score</th>
+      <th>dining_score_norm</th>
+      <th>weighted_match_score</th>
+      <th>match_score_norm</th>
+      <th>fee_efficiency_norm</th>
+      <th>issuer_pref_norm</th>
+      <th>final_score</th>
+      <th>reason</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>666</td>
+      <td>올바른 FLEX 카드</td>
+      <td>NH농협카드</td>
+      <td>10000.0</td>
+      <td>100.0</td>
+      <td>1.0</td>
+      <td>25.250000</td>
+      <td>1.000000</td>
+      <td>0.983051</td>
+      <td>0.0</td>
+      <td>0.795763</td>
+      <td>외식점수 1.00, 연회비효율 0.98, 매칭 1.00</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>삼성카드 taptap O</td>
+      <td>삼성카드</td>
+      <td>10000.0</td>
+      <td>50.0</td>
+      <td>0.5</td>
+      <td>21.750000</td>
+      <td>0.861386</td>
+      <td>0.983051</td>
+      <td>1.0</td>
+      <td>0.774971</td>
+      <td>외식점수 0.50, 연회비효율 0.98, 매칭 0.86</td>
+    </tr>
+    <tr>
+      <td>2886</td>
+      <td>삼성 iD SELECT ON 카드</td>
+      <td>삼성카드</td>
+      <td>20000.0</td>
+      <td>20.0</td>
+      <td>0.2</td>
+      <td>3.416667</td>
+      <td>0.135314</td>
+      <td>0.949153</td>
+      <td>1.0</td>
+      <td>0.537585</td>
+      <td>외식점수 0.20, 연회비효율 0.95, 매칭 0.14</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <div class="card">
+    <h2>외식비 시나리오 추천</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario_monthly_dining_spend</th>
+      <th>rank</th>
+      <th>card_id</th>
+      <th>card_name</th>
+      <th>issuer</th>
+      <th>final_score</th>
+      <th>breakeven_months</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>200000</td>
+      <td>1</td>
+      <td>666</td>
+      <td>올바른 FLEX 카드</td>
+      <td>NH농협카드</td>
+      <td>0.795763</td>
+      <td>0.333333</td>
+    </tr>
+    <tr>
+      <td>200000</td>
+      <td>2</td>
+      <td>51</td>
+      <td>삼성카드 taptap O</td>
+      <td>삼성카드</td>
+      <td>0.774971</td>
+      <td>0.500000</td>
+    </tr>
+    <tr>
+      <td>200000</td>
+      <td>3</td>
+      <td>2886</td>
+      <td>삼성 iD SELECT ON 카드</td>
+      <td>삼성카드</td>
+      <td>0.537585</td>
+      <td>1.428571</td>
+    </tr>
+    <tr>
+      <td>300000</td>
+      <td>1</td>
+      <td>666</td>
+      <td>올바른 FLEX 카드</td>
+      <td>NH농협카드</td>
+      <td>0.795763</td>
+      <td>0.222222</td>
+    </tr>
+    <tr>
+      <td>300000</td>
+      <td>2</td>
+      <td>51</td>
+      <td>삼성카드 taptap O</td>
+      <td>삼성카드</td>
+      <td>0.774971</td>
+      <td>0.333333</td>
+    </tr>
+    <tr>
+      <td>300000</td>
+      <td>3</td>
+      <td>2886</td>
+      <td>삼성 iD SELECT ON 카드</td>
+      <td>삼성카드</td>
+      <td>0.537585</td>
+      <td>0.952381</td>
+    </tr>
+    <tr>
+      <td>400000</td>
+      <td>1</td>
+      <td>666</td>
+      <td>올바른 FLEX 카드</td>
+      <td>NH농협카드</td>
+      <td>0.795763</td>
+      <td>0.166667</td>
+    </tr>
+    <tr>
+      <td>400000</td>
+      <td>2</td>
+      <td>51</td>
+      <td>삼성카드 taptap O</td>
+      <td>삼성카드</td>
+      <td>0.774971</td>
+      <td>0.250000</td>
+    </tr>
+    <tr>
+      <td>400000</td>
+      <td>3</td>
+      <td>2886</td>
+      <td>삼성 iD SELECT ON 카드</td>
+      <td>삼성카드</td>
+      <td>0.537585</td>
+      <td>0.714286</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</body>
+</html>

@@ -21,10 +21,10 @@ def clean_amount(amt_str):
 
 def main():
     # 데이터 로드 (Header는 6번째 줄, index 5)
-    file_path = '/Users/t2024-m0246/Documents/GitHub/project_sojeong/30대윤모양/카드이용내역__2025.csv'
+    file_path = '/Users/t2024-m0246/Documents/GitHub/project_sojeong/30대/카드이용내역__2025.csv'
     
     # 30대 폴더 확인
-    output_dir = '/Users/t2024-m0246/Documents/GitHub/project_sojeong/30대윤모양/eda_images'
+    output_dir = '/Users/t2024-m0246/Documents/GitHub/project_sojeong/30대/eda_images'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
@@ -76,9 +76,10 @@ def main():
     top_categories = category_sum.head(10)
     
     plt.figure(figsize=(12, 8))
-    sns.barplot(y=top_categories.index, x=top_categories.values, palette='rocket')
+    # 단위를 만원단위로 변경
+    sns.barplot(y=top_categories.index, x=top_categories.values / 10000, palette='rocket')
     plt.title('업종별 이용 금액 Top 10')
-    plt.xlabel('이용 금액 (원)')
+    plt.xlabel('이용 금액 (만원)')
     plt.ylabel('업종')
     plt.tight_layout()
     plt.savefig(f'{output_dir}/category_usage_top10.png')

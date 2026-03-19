@@ -17,7 +17,7 @@
 * **NLP/Text Analysis** : KoNLPy, transformers (감성 분석용)
 * **Statistical Tools** : scipy, statsmodels
 * **Visualization** : plotly (인터랙티브 차트)
-* **Project Name** : `gen20-credit-card-recommendation`
+* **Project Name** : `project_creditcard`
 
 ---
 
